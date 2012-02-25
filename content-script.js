@@ -274,6 +274,7 @@ function bind (f) {
 				if (altDown)   e.which += alt;
 				if (ctrlDown)  e.which += ctrl;
 				switch (e.which) {
+					case ctrl + 51: // ctrl + 3
 					case ctrl + shift + 51: // ctrl + #
 					case ctrl + 117: // ctrl + f6 
 						toggleHashing (true);
